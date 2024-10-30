@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tadhg Kelleher's CV</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom stylesheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>Tadhg Kelleher</h1>
-    <h3>Email: <a href="mailto:tadhgkelleher@gmail.com">tadhgkelleher@gmail.com</a></h3>
-    <h3>LinkedIn: <a href="https://www.linkedin.com/in/tadhg-kelleher-6a5a2122a/" target="_blank">tadhg-kelleher-6a5a2122a</a></h3>
+    <div class="container mt-5">
+        <h1 class="text-center">Tadhg Kelleher</h1>
+        <h3 class="text-center">Email: <a href="mailto:tadhgkelleher@gmail.com">tadhgkelleher@gmail.com</a></h3>
+        <h3 class="text-center">LinkedIn: <a href="https://www.linkedin.com/in/tadhg-kelleher-6a5a2122a/" target="_blank">tadhg-kelleher-6a5a2122a</a></h3>
 
-    <div class="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor of Music</strong><br>
-        University College Dublin<br>
-        2012 - 2016</p>
-    </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2>Education</h2>
+                        <p><strong>Bachelor of Music</strong><br>
+                        University College Dublin<br>
+                        2012 - 2016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2>Work Experience</h2>
+                        <p><strong>Music Teacher</strong><br>
+                        Athlone School of Music<br>
+                        2005 - 2012<br>
+                        Teaching children</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="work-experience">
-        <h2>Work Experience</h2>
-        <p><strong>Music Teacher</strong><br>
-        Athlone School of Music<br>
-        2005 - 2012<br>
-        Teaching children</p>
-    </div>
-
-    <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Guitar</li>
-            <li>Drums</li>
-            <li>Piano</li>
-        </ul>
+        <div class="skills mt-4">
+            <h2>Skills</h2>
+            <ul class="list-unstyled">
+                <li>Guitar</li>
+                <li>Drums</li>
+                <li>Piano</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
